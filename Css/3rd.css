@@ -1,0 +1,32 @@
+h1{
+text-align: center;
+
+}#div1{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+   display: inline-block;
+   visibility: hidden; 
+}
+#div2{
+    background-color: violet; 
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block; 
+    display: none;
+}
+#div3{
+    background-color:rgba(40, 100, 255, .3);
+     width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+     display: inline-block; 
+}
+button{
+    display: block;
+}
