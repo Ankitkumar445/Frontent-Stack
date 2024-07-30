@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+body{
+    background-color: magenta;
+    
+    
+}
+table{
+    text-align: center;
+    background-color: yellow;
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+    
+}

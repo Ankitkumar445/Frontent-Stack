@@ -1,0 +1,99 @@
+<!--Create your profile your education, experience, your story, your hobbies 
+(mention in unordered list).Create type of registration form in text, password. 
+Create a radio of select class,checkbox of select subjects, select you city of using 
+ption value, add a feedback using textarea and at the end create a submit a button. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>MY PORTFOLIO</h1>
+    </header>
+    <main>
+        <section> education : JUSCO SCHOOL SOUTH PARK </section>
+        <section>experience : Microsoft | TCS |ETC</section>
+        <article>my story: i have experienced my ups and downs in my life . whenever time allows i will elaborate it in future </article>
+        <a href="https://google.com" target="_main"> <img src="https://blog.hubspot.com/hubfs/image-2.jpg" alt="google"
+        height="500"></a>
+        <h5>hobbies</h5>
+        <ol>
+            <li>cricket</li>
+            <ul>
+             <li>Gully cricket</li>
+             <li>full length cricket</li>
+        </ul>
+            <li>football</li>
+            <ul>
+                <li>full ground </li>
+                <li>gully fooball</li>
+            </ul>
+            <li>badminton</li>
+            <ul>
+                <li>road </li>
+                <li>field</li>
+            </ul>
+        </ol>
+        <table><thead>
+            <caption>info</caption>
+            <tr>
+                <th>Name</th>
+                <th>Roll no </th>
+            </tr>
+        </thead>
+            
+            <tbody>
+                <tr><td>
+                    ankit 
+                </td><td>
+                    23
+                </td></tr>
+            </tbody>
+        </table>
+
+        <aside>this is an ads</aside>
+    </main>
+
+    <footer>
+       <h5>contact us at ankitkumarchoudhary8789823402@gmail.com<br>ph no: 8789823042</h5> 
+    </footer>
+    <h3>Registration Form</h3>
+    <form action="/action.php">
+        <input type ="text" placeholder="Type here"><br><br>
+        <input type ="password" placeholder="password">
+        <h5>Select class</h5>
+        <input type ="radio" value="class XI" name="class">class XI<br>
+        <input type ="radio" value="class XII" name="class">class XII <br>
+        <label for="1">
+            <input type ="radio" value="class XI" name="class" id="1">class IX
+        </label><br>
+        <label for="2">
+            <input type ="radio" value="class XII" name="class" id="2">class XII
+        </label>
+        <h5>Select subjects</h5>
+        <label for="math">
+            <input type ="checkbox" value="math" name="subject" id="1">Math
+        </label><br>
+        <label for="chem">
+            <input type ="checkbox" value="chem" name="subject" id="2">Chem
+        </label><br>
+        <label for="eng">
+            <input type ="checkbox" value="eng" name="subject" id="3">Eng
+        </label><br>
+        <label for="Phy">
+            <input type ="checkbox" value="chem" name="subject" id="4">Phy
+        </label><br><br>
+        <h3>Select Your City</h3>
+        <select name="city">
+            <option value="Delhi">Delhi</option>
+            <option value="Bihar">Bihar</option>
+            <option valur="Jharkhand">Jharkhand</option>
+        </select><br><br>
+        <textarea name="feedback" id="1" placeholder="give us a valuable feedback" rows="5">feedback</textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
